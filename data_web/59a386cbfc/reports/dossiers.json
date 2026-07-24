@@ -1,0 +1,130 @@
+[
+ {
+  "obj_id": 186,
+  "kind": "mover",
+  "ra": 132.84108003314674,
+  "dec": 11.53771179190218,
+  "rank": 0.8485018372565061,
+  "verdict": "CANDIDATE NEW moving object -- no known solar-system object at this position (note: SkyBoT (IMCCE), JPL SB-Ident could not be reached -- re-check online). Motion 3.00 arcsec/min at PA 298 deg over 4 epochs.",
+  "action": "Re-observe tonight/tomorrow near RA 131.73848, Dec 12.11196 (+24h prediction). If recovered, submit the attached MPC draft with your observatory code.",
+  "checks": [
+   {
+    "service": "SkyBoT (IMCCE)",
+    "status": "unavailable",
+    "detail": "ReadTimeout: HTTPSConnectionPool(host='vo.imcce.fr', port=443): Read timed out. (read timeout=15)",
+    "sep_arcsec": NaN
+   },
+   {
+    "service": "JPL SB-Ident",
+    "status": "unavailable",
+    "detail": "ReadTimeout: HTTPSConnectionPool(host='ssd-api.jpl.nasa.gov', port=443): Read timed out. (read timeout=20)",
+    "sep_arcsec": NaN
+   },
+   {
+    "service": "NASA NeoWs (context)",
+    "status": "no_match",
+    "detail": "8 known NEO close approaches on 2026-07-04 (2 flagged potentially hazardous) -- date context only, not a positional match",
+    "sep_arcsec": NaN
+   },
+   {
+    "service": "Local reference catalog",
+    "status": "no_match",
+    "detail": "absent from the run's reference catalog",
+    "sep_arcsec": NaN
+   }
+  ],
+  "motion": {
+   "speed_arcsec_min": 3.0003013493185344,
+   "pa_deg": 297.9930563030233,
+   "fit_rms_arcsec": 0.036367727790405,
+   "predictions": {
+    "+1h": {
+     "ra": 132.7749880865041,
+     "dec": 11.572135798398339
+    },
+    "+24h": {
+     "ra": 131.73848084383363,
+     "dec": 12.111959255873147
+    }
+   },
+   "arc_minutes": 40.0,
+   "n_epochs": 4
+  },
+  "html_name": "dossier_186_mover.html"
+ },
+ {
+  "obj_id": 184,
+  "kind": "transient",
+  "ra": 132.84510616616697,
+  "dec": 11.647963938285237,
+  "rank": 0.7999481220608239,
+  "verdict": "CANDIDATE TRANSIENT -- stationary, repeats across 4 epochs, no catalog counterpart.",
+  "action": "Obtain a confirmation image + spectrum if it persists; check TNS before announcing; monitor nightly for the rise/decline rate.",
+  "checks": [
+   {
+    "service": "SIMBAD",
+    "status": "no_match",
+    "detail": "no catalogued object within 5 arcsec",
+    "sep_arcsec": NaN
+   },
+   {
+    "service": "Local reference catalog",
+    "status": "no_match",
+    "detail": "absent from the run's reference catalog",
+    "sep_arcsec": NaN
+   }
+  ],
+  "motion": {},
+  "html_name": "dossier_184_transient.html"
+ },
+ {
+  "obj_id": 18,
+  "kind": "variable",
+  "ra": 132.86427485028148,
+  "dec": 11.57074608154273,
+  "rank": 0.7149999994591321,
+  "verdict": "Variable star (present in the run's reference catalog): amplitude 0.53 mag over the run.",
+  "action": "Extend the light curve over more nights to measure the period and classify.",
+  "checks": [
+   {
+    "service": "SIMBAD",
+    "status": "no_match",
+    "detail": "no catalogued object within 5 arcsec",
+    "sep_arcsec": NaN
+   },
+   {
+    "service": "Local reference catalog",
+    "status": "match",
+    "detail": "present in the run's reference catalog",
+    "sep_arcsec": NaN
+   }
+  ],
+  "motion": {},
+  "html_name": "dossier_018_variable.html"
+ },
+ {
+  "obj_id": 171,
+  "kind": "variable",
+  "ra": 132.79744491062286,
+  "dec": 11.648118175941748,
+  "rank": 0.7097092698352363,
+  "verdict": "Variable star (present in the run's reference catalog): amplitude 0.10 mag over the run.",
+  "action": "Extend the light curve over more nights to measure the period and classify.",
+  "checks": [
+   {
+    "service": "SIMBAD",
+    "status": "no_match",
+    "detail": "no catalogued object within 5 arcsec",
+    "sep_arcsec": NaN
+   },
+   {
+    "service": "Local reference catalog",
+    "status": "match",
+    "detail": "present in the run's reference catalog",
+    "sep_arcsec": NaN
+   }
+  ],
+  "motion": {},
+  "html_name": "dossier_171_variable.html"
+ }
+]

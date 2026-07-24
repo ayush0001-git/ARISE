@@ -1,0 +1,12 @@
+ARISE run summary (latest run).
+Instrument: generic (unknown).
+The pipeline reduced 6 science frames.
+Median seeing (FWHM) was 4.91 arcsec.
+Median photometric zero point was 24.472 mag with scatter 0.015 mag.
+Median 5-sigma limiting magnitude was 17.97.
+Median astrometric residual was 0.318 arcsec.
+Discovery results: the run found and tracked 193 objects, of which 1 moving object(s) (asteroid/NEO candidates), 1 transient(s) (new sources with no catalog match), and 2 variable star(s).
+Candidate (discovered): mover at RA 132.84108 deg, Dec 11.53771 deg, rank score 0.849, seen in 4 epochs. moving object: 3.00 arcsec/min at PA 298 deg, 4 epochs linked
+Candidate (discovered): transient at RA 132.84511 deg, Dec 11.64796 deg, rank score 0.800, seen in 4 epochs. stationary source with no catalog match, 4 detections
+Candidate (discovered): variable at RA 132.86427 deg, Dec 11.57075 deg, rank score 0.715, seen in 6 epochs. variable: rms=0.233 mag, 4/6 epochs >4 sigma, reduced chi2=1364, amp=0.53 mag
+Candidate (discovered): variable at RA 132.79745 deg, Dec 11.64812 deg, rank score 0.710, seen in 6 epochs. variable: rms=0.052 mag, 6/6 epochs >4 sigma, reduced chi2=76, amp=0.10 mag

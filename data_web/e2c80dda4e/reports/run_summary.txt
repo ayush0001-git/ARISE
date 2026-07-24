@@ -1,0 +1,8 @@
+ARISE run summary (latest run).
+Instrument: generic (unknown).
+The pipeline reduced 1 science frames.
+Median seeing (FWHM) was 4.87 arcsec.
+Median photometric zero point was nan mag with scatter nan mag.
+Median 5-sigma limiting magnitude was nan.
+Median astrometric residual was nan arcsec.
+Discovery results: the run found and tracked 0 objects, of which 0 moving object(s) (asteroid/NEO candidates), 0 transient(s) (new sources with no catalog match), and 0 variable star(s).

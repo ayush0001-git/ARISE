@@ -1,0 +1,10 @@
+2026-07-05 12:52:37  INFO     arise.pipeline  ARISE pipeline starting | instrument=dfot_2kx2k (1.3m Devasthal Fast Optical Telescope (DFOT))
+2026-07-05 12:52:37  INFO     arise.ingest  Ingested 1 frames from D:\ARISE\data_web\f1e7ed70b9\raw -> 0 bias, 0 dark, 1 flat, 0 light, 0 unknown
+2026-07-05 12:52:37  ERROR    arise.webapp  Run f1e7ed70b9 failed: No science (light) frames found in D:\ARISE\data_web\f1e7ed70b9\raw
+Traceback (most recent call last):
+  File "D:\ARISE\arise\webapp.py", line 109, in work
+    result = run_pipeline(cfg)
+             ^^^^^^^^^^^^^^^^^
+  File "D:\ARISE\arise\pipeline.py", line 111, in run_pipeline
+    raise RuntimeError(f"No science (light) frames found in {paths.raw}")
+RuntimeError: No science (light) frames found in D:\ARISE\data_web\f1e7ed70b9\raw

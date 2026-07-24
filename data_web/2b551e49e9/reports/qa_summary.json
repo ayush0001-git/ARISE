@@ -1,0 +1,22 @@
+{
+  "instrument": "generic",
+  "telescope": "unknown",
+  "frames": [
+    {
+      "name": "science_V_002.fits",
+      "n_sources": 298,
+      "n_cosmic_rays": 340,
+      "fwhm_arcsec": 5.024727793313266,
+      "fwhm_pix": 5.024727793313266,
+      "sky_adu": 744.8212890625,
+      "bkg_rms_adu": 15.486103057861328,
+      "astrom_rms_arcsec": 1.562670385128487,
+      "n_astrom_matched": 5,
+      "zeropoint": NaN,
+      "zp_scatter": NaN,
+      "limiting_mag": NaN,
+      "airmass": 1.305
+    }
+  ],
+  "reference_size": 1403
+}

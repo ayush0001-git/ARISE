@@ -1,0 +1,34 @@
+# local secrets -- never commit
+config/keys.yaml
+kb/sources.txt
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# generated data products (regenerate with the demo / your own frames)
+data/raw/*
+data/master/*
+data/reduced/*
+data/reports/*
+data/catalogs/*
+!data/**/.gitkeep
+
+# FITS frames are large; never commit
+*.fits
+*.fit
+*.fts
+*.fz
+
+.env
+.env.*
+*.env
+*.key

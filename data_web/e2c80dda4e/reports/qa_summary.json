@@ -1,0 +1,22 @@
+{
+  "instrument": "generic",
+  "telescope": "unknown",
+  "frames": [
+    {
+      "name": "starfield_photo.fits",
+      "n_sources": 319,
+      "n_cosmic_rays": 9483,
+      "fwhm_arcsec": 4.868363210360721,
+      "fwhm_pix": 4.868363210360721,
+      "sky_adu": 0.0,
+      "bkg_rms_adu": 0.0,
+      "astrom_rms_arcsec": NaN,
+      "n_astrom_matched": 0,
+      "zeropoint": NaN,
+      "zp_scatter": NaN,
+      "limiting_mag": NaN,
+      "airmass": NaN
+    }
+  ],
+  "reference_size": 0
+}

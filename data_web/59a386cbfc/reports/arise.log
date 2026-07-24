@@ -1,0 +1,68 @@
+2026-07-05 12:48:54  INFO     arise.synth  Synthesising a night for unknown (512x512, 6 science frames)
+2026-07-05 12:48:56  INFO     arise.synth  Wrote 5 bias, 5 dark, 5 flat, 6 science frames to D:\ARISE\data_web\59a386cbfc\raw
+2026-07-05 12:48:56  INFO     arise.synth  Planted: moving asteroid (mag 18.2), transient (mag 17.4, frame 2+), variable star (mag 16.0 +/- 0.60)
+2026-07-05 12:50:06  INFO     arise.pipeline  ARISE pipeline starting | instrument=generic (unknown)
+2026-07-05 12:50:07  INFO     arise.ingest  Ingested 21 frames from D:\ARISE\data_web\59a386cbfc\raw -> 5 bias, 5 dark, 5 flat, 6 light, 0 unknown
+2026-07-05 12:50:07  INFO     arise.calibrate  Master bias from 5 frames (median 400.0 ADU)
+2026-07-05 12:50:07  INFO     arise.calibrate  Master dark from 5 frames at 60.0s (median rate 0.0333 ADU/s)
+2026-07-05 12:50:07  INFO     arise.calibrate  Flagged 57 hot/bad pixels
+2026-07-05 12:50:07  INFO     arise.calibrate  Master flat for filter V from 5 frames (norm 1.0 ADU)
+2026-07-05 12:50:07  INFO     arise.catalogs  Loaded 320 reference stars from local file reference_catalog.csv
+2026-07-05 12:50:07  INFO     arise.pipeline  --- Science frame 1/6: science_V_000.fits ---
+2026-07-05 12:50:07  INFO     arise.calibrate  Reduced science_V_000.fits [bias+dark+flat]
+2026-07-05 12:50:08  INFO     arise.cosmicray  L.A.Cosmic flagged 396 cosmic-ray pixels in science_V_000.fits (0.151%)
+2026-07-05 12:50:08  INFO     arise.background  Background: median 452.81 ADU, RMS 18.92 ADU; masked 30.3% as sources
+2026-07-05 12:50:09  INFO     arise.sources  Extracted 290 sources from science_V_000.fits (median stellar FWHM 4.91 px)
+2026-07-05 12:50:09  INFO     arise.astrometry  Astrometry science_V_000.fits: method=header matched=287 residual RMS=0.314 arcsec (refined)
+2026-07-05 12:50:09  INFO     arise.photometry  Photometry science_V_000.fits: ZP=24.472 +/- 0.013 from 100 stars, k=0.15, 5-sigma limit ~17.97 mag
+2026-07-05 12:50:09  INFO     arise.pipeline  --- Science frame 2/6: science_V_001.fits ---
+2026-07-05 12:50:09  INFO     arise.calibrate  Reduced science_V_001.fits [bias+dark+flat]
+2026-07-05 12:50:09  INFO     arise.cosmicray  L.A.Cosmic flagged 386 cosmic-ray pixels in science_V_001.fits (0.147%)
+2026-07-05 12:50:10  INFO     arise.background  Background: median 451.69 ADU, RMS 19.07 ADU; masked 30.3% as sources
+2026-07-05 12:50:10  INFO     arise.sources  Extracted 293 sources from science_V_001.fits (median stellar FWHM 4.91 px)
+2026-07-05 12:50:10  INFO     arise.astrometry  Astrometry science_V_001.fits: method=header matched=287 residual RMS=0.325 arcsec (refined)
+2026-07-05 12:50:10  INFO     arise.photometry  Photometry science_V_001.fits: ZP=24.471 +/- 0.020 from 100 stars, k=0.15, 5-sigma limit ~17.98 mag
+2026-07-05 12:50:10  INFO     arise.pipeline  --- Science frame 3/6: science_V_002.fits ---
+2026-07-05 12:50:10  INFO     arise.calibrate  Reduced science_V_002.fits [bias+dark+flat]
+2026-07-05 12:50:10  INFO     arise.cosmicray  L.A.Cosmic flagged 380 cosmic-ray pixels in science_V_002.fits (0.145%)
+2026-07-05 12:50:11  INFO     arise.background  Background: median 450.83 ADU, RMS 19.08 ADU; masked 30.3% as sources
+2026-07-05 12:50:11  INFO     arise.sources  Extracted 291 sources from science_V_002.fits (median stellar FWHM 4.90 px)
+2026-07-05 12:50:11  INFO     arise.astrometry  Astrometry science_V_002.fits: method=header matched=287 residual RMS=0.318 arcsec (refined)
+2026-07-05 12:50:11  INFO     arise.photometry  Photometry science_V_002.fits: ZP=24.472 +/- 0.016 from 100 stars, k=0.15, 5-sigma limit ~17.96 mag
+2026-07-05 12:50:11  INFO     arise.pipeline  --- Science frame 4/6: science_V_003.fits ---
+2026-07-05 12:50:11  INFO     arise.calibrate  Reduced science_V_003.fits [bias+dark+flat]
+2026-07-05 12:50:11  INFO     arise.cosmicray  L.A.Cosmic flagged 397 cosmic-ray pixels in science_V_003.fits (0.151%)
+2026-07-05 12:50:11  INFO     arise.background  Background: median 451.38 ADU, RMS 18.97 ADU; masked 30.3% as sources
+2026-07-05 12:50:12  INFO     arise.sources  Extracted 290 sources from science_V_003.fits (median stellar FWHM 4.92 px)
+2026-07-05 12:50:12  INFO     arise.astrometry  Astrometry science_V_003.fits: method=header matched=287 residual RMS=0.317 arcsec (refined)
+2026-07-05 12:50:12  INFO     arise.photometry  Photometry science_V_003.fits: ZP=24.472 +/- 0.014 from 101 stars, k=0.15, 5-sigma limit ~17.97 mag
+2026-07-05 12:50:12  INFO     arise.pipeline  --- Science frame 5/6: science_V_004.fits ---
+2026-07-05 12:50:12  INFO     arise.calibrate  Reduced science_V_004.fits [bias+dark+flat]
+2026-07-05 12:50:12  INFO     arise.cosmicray  L.A.Cosmic flagged 335 cosmic-ray pixels in science_V_004.fits (0.128%)
+2026-07-05 12:50:12  INFO     arise.background  Background: median 451.71 ADU, RMS 19.12 ADU; masked 30.3% as sources
+2026-07-05 12:50:13  INFO     arise.sources  Extracted 289 sources from science_V_004.fits (median stellar FWHM 4.90 px)
+2026-07-05 12:50:13  INFO     arise.astrometry  Astrometry science_V_004.fits: method=header matched=288 residual RMS=0.317 arcsec (refined)
+2026-07-05 12:50:13  INFO     arise.photometry  Photometry science_V_004.fits: ZP=24.472 +/- 0.014 from 100 stars, k=0.15, 5-sigma limit ~17.97 mag
+2026-07-05 12:50:13  INFO     arise.pipeline  --- Science frame 6/6: science_V_005.fits ---
+2026-07-05 12:50:13  INFO     arise.calibrate  Reduced science_V_005.fits [bias+dark+flat]
+2026-07-05 12:50:14  INFO     arise.cosmicray  L.A.Cosmic flagged 353 cosmic-ray pixels in science_V_005.fits (0.135%)
+2026-07-05 12:50:14  INFO     arise.background  Background: median 451.07 ADU, RMS 19.17 ADU; masked 30.4% as sources
+2026-07-05 12:50:16  INFO     arise.sources  Extracted 295 sources from science_V_005.fits (median stellar FWHM 4.90 px)
+2026-07-05 12:50:16  INFO     arise.astrometry  Astrometry science_V_005.fits: method=header matched=287 residual RMS=0.323 arcsec (refined)
+2026-07-05 12:50:16  INFO     arise.photometry  Photometry science_V_005.fits: ZP=24.472 +/- 0.018 from 102 stars, k=0.15, 5-sigma limit ~18.01 mag
+2026-07-05 12:50:17  INFO     arise.discovery  Discovery: 1109 significant detections across 6 frames (median FWHM 4.91 px)
+2026-07-05 12:50:17  INFO     arise.discovery  Discovery found 193 objects: 1 movers, 1 transients, 2 variables (4 flagged as top candidates)
+2026-07-05 12:51:02  INFO     arise.dossier  Dossier dossier_186_mover.html: mover -> CANDIDATE NEW moving object 
+2026-07-05 12:51:07  INFO     arise.dossier  Dossier dossier_184_transient.html: transient -> CANDIDATE TRANSIENT 
+2026-07-05 12:51:09  INFO     arise.dossier  Dossier dossier_018_variable.html: variable -> Variable star (present in the run's reference catalog): amplitude 0
+2026-07-05 12:51:10  INFO     arise.dossier  Dossier dossier_171_variable.html: variable -> Variable star (present in the run's reference catalog): amplitude 0
+2026-07-05 12:51:11  INFO     arise.pipeline  HTML report: D:\ARISE\data_web\59a386cbfc\reports\arise_report.html
+2026-07-05 12:51:11  INFO     arise.pipeline  ============================================================
+2026-07-05 12:51:11  INFO     arise.pipeline  ARISE complete: 6 science frames reduced
+2026-07-05 12:51:11  INFO     arise.pipeline  Median seeing 4.91 arcsec | median ZP 24.472 | median limiting mag 17.97
+2026-07-05 12:51:11  INFO     arise.pipeline  Discovery: 193 objects | 1 movers, 1 transients, 2 variables
+2026-07-05 12:51:11  INFO     arise.pipeline  Top candidate: mover (rank 0.849) - moving object: 3.00 arcsec/min at PA 298 deg, 4 epochs linked
+2026-07-05 12:51:11  INFO     arise.pipeline  ============================================================
+2026-07-05 12:51:17  INFO     arise.rag  KB ingested folder E:\obsedian: 156 notes -> 4130 chunks
+2026-07-05 12:51:18  INFO     arise.rag  KB ingested https://open-meteo.com/en/docs (24 chunks)
+2026-07-05 12:51:18  INFO     arise.rag  Knowledge base ready: 4198 chunks from 164 sources

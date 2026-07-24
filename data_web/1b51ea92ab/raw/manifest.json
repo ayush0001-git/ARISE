@@ -1,0 +1,54 @@
+{
+  "instrument": "dfot_2kx2k",
+  "telescope": "1.3m Devasthal Fast Optical Telescope (DFOT)",
+  "nx": 512,
+  "ny": 512,
+  "filter": "V",
+  "science_exptime": 60.0,
+  "seed": 20260704,
+  "bias": [
+    "bias_000.fits",
+    "bias_001.fits",
+    "bias_002.fits",
+    "bias_003.fits",
+    "bias_004.fits"
+  ],
+  "dark": [
+    "dark_000.fits",
+    "dark_001.fits",
+    "dark_002.fits",
+    "dark_003.fits",
+    "dark_004.fits"
+  ],
+  "flat": [
+    "flat_V_000.fits",
+    "flat_V_001.fits",
+    "flat_V_002.fits",
+    "flat_V_003.fits",
+    "flat_V_004.fits"
+  ],
+  "science": [
+    "science_V_000.fits",
+    "science_V_001.fits",
+    "science_V_002.fits",
+    "science_V_003.fits",
+    "science_V_004.fits",
+    "science_V_005.fits"
+  ],
+  "truth_catalog": "truth_sources.csv",
+  "reference_catalog": "reference_catalog.csv",
+  "planted": {
+    "asteroid": {
+      "mag": 18.2,
+      "speed_arcsec_per_min": 3.0
+    },
+    "transient": {
+      "mag": 17.4,
+      "appears_frame": 2
+    },
+    "variable": {
+      "mag": 16.0,
+      "amp_mag": 0.6
+    }
+  }
+}

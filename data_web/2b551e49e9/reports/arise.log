@@ -1,0 +1,25 @@
+2026-07-05 12:53:10  INFO     arise.pipeline  ARISE pipeline starting | instrument=generic (unknown)
+2026-07-05 12:53:11  INFO     arise.ingest  Ingested 1 frames from D:\ARISE\data_web\2b551e49e9\raw -> 0 bias, 0 dark, 0 flat, 1 light, 0 unknown
+2026-07-05 12:53:11  WARNING  arise.calibrate  No bias frames; bias subtraction will be skipped.
+2026-07-05 12:53:11  WARNING  arise.calibrate  No dark frames; dark subtraction will be skipped.
+2026-07-05 12:53:11  WARNING  arise.calibrate  No flat frames; flat-fielding will be skipped.
+2026-07-05 12:56:49  INFO     arise.catalogs  Gaia DR3 returned 1403 stars within 0.225 deg
+2026-07-05 12:56:49  INFO     arise.pipeline  --- Science frame 1/1: science_V_002.fits ---
+2026-07-05 12:56:49  INFO     arise.calibrate  Reduced science_V_002.fits [no-op]
+2026-07-05 12:56:49  INFO     arise.cosmicray  L.A.Cosmic flagged 340 cosmic-ray pixels in science_V_002.fits (0.130%)
+2026-07-05 12:56:50  INFO     arise.background  Background: median 744.82 ADU, RMS 15.49 ADU; masked 29.8% as sources
+2026-07-05 12:56:54  INFO     arise.sources  Extracted 298 sources from science_V_002.fits (median stellar FWHM 5.02 px)
+2026-07-05 12:56:54  INFO     arise.astrometry  Astrometry science_V_002.fits: method=header matched=5 residual RMS=1.563 arcsec (refined)
+2026-07-05 12:56:54  WARNING  arise.photometry  Photometry science_V_002.fits: only 1 calibrators (< 8); not calibrated
+2026-07-05 12:56:54  INFO     arise.discovery  Discovery: 298 significant detections across 1 frames (median FWHM 5.02 px)
+2026-07-05 12:56:54  INFO     arise.discovery  Discovery found 298 objects: 0 movers, 0 transients, 0 variables (0 flagged as top candidates)
+2026-07-05 12:56:57  INFO     arise.pipeline  HTML report: D:\ARISE\data_web\2b551e49e9\reports\arise_report.html
+2026-07-05 12:56:57  INFO     arise.pipeline  ============================================================
+2026-07-05 12:56:57  INFO     arise.pipeline  ARISE complete: 1 science frames reduced
+2026-07-05 12:56:57  INFO     arise.pipeline  Median seeing 5.02 arcsec | median ZP nan | median limiting mag nan
+2026-07-05 12:56:57  INFO     arise.pipeline  Discovery: 298 objects | 0 movers, 0 transients, 0 variables
+2026-07-05 12:56:57  INFO     arise.pipeline  Top candidate: single (rank 0.132) - single unmatched detection
+2026-07-05 12:56:57  INFO     arise.pipeline  ============================================================
+2026-07-05 12:56:57  INFO     arise.rag  KB ingested folder E:\obsedian: 156 notes -> 4130 chunks
+2026-07-05 12:56:59  INFO     arise.rag  KB ingested https://open-meteo.com/en/docs (24 chunks)
+2026-07-05 12:56:59  INFO     arise.rag  Knowledge base ready: 4197 chunks from 164 sources

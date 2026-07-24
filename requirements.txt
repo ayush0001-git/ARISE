@@ -1,0 +1,22 @@
+# ARISE — core runtime dependencies (all install as prebuilt wheels on Windows/Linux/macOS)
+numpy>=1.24
+scipy>=1.10
+astropy>=6.0
+photutils>=1.12
+ccdproc>=2.4
+astroscrappy>=1.1
+astroquery>=0.4.7
+reproject>=0.13
+scikit-image>=0.22
+matplotlib>=3.7
+pandas>=2.0
+pyyaml>=6.0
+tqdm>=4.66
+rich>=13.0
+flask>=3.0            # web console (drag-drop frontend + Ask-ARISE)
+requests>=2.31        # knowledge-base URL ingestion
+
+# ---- Optional accelerators / advanced modules (NOT required for a full end-to-end run) ----
+# sep-pjw        # maintained Source-Extractor-as-a-library, faster extraction backend
+# deepCR         # deep-learning cosmic-ray rejection (pulls in torch)
+# astrometry     # fully-offline plate solving (else astroquery.astrometry_net online is used)

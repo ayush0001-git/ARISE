@@ -1,0 +1,58 @@
+# ARISE example configuration (1.3m DFOT).
+# Run with:  arise run --config config/dfot_demo.yaml
+# Every field below has a sensible default; override only what you need.
+
+instrument: dfot_2kx2k          # see `arise instruments` for the full list
+log_level: INFO
+n_jobs: 1
+
+paths:
+  raw: data/raw                 # your raw FITS frames (bias/dark/flat/science)
+  master: data/master           # master calibration frames are written here
+  reduced: data/reduced          # reduced multi-extension FITS (SCI/ERR/DQ)
+  catalogs: data/catalogs         # per-frame + combined source catalogs, candidates
+  reports: data/reports           # HTML report, QA summary, run log
+
+cosmic_ray:
+  enabled: true
+  method: lacosmic              # lacosmic | deepcr | none
+  sigclip: 6.0                  # ground-based default (lower clips star cores)
+  objlim: 5.0
+  niter: 4
+
+denoise:
+  enabled: false                # OFF by default: blurring biases photometry
+
+background:
+  box_size: 64                  # sky mesh cell (px); a few x the largest source
+  filter_size: 3
+  estimator: sextractor         # sextractor | median | mmm
+  mask_sources_iters: 2
+
+detect:
+  nsigma: 3.0                   # detection threshold in units of background RMS
+  npixels: 5                    # min connected pixels
+  deblend: true
+  aperture_scale: 1.5           # fixed-aperture radius = scale * median FWHM
+
+astrometry:
+  enabled: true
+  use_header_wcs: true          # trust + refine an existing header WCS
+  solver: auto                  # auto | astrometry_net | none
+
+photometry:
+  enabled: true
+  ref_catalog: gaia             # gaia | panstarrs | none (a local reference_catalog.csv always wins)
+  match_radius_arcsec: 2.0
+  min_ref_stars: 8
+
+discovery:
+  enabled: true
+  catalog_match_radius_arcsec: 2.5
+  flag_unmatched: true
+  moving_object_link: true
+  max_motion_arcsec_per_min: 30.0
+  min_tracklet_points: 3
+  variability: true
+  min_snr: 5.0
+  top_n: 50
